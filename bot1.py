@@ -230,12 +230,12 @@ def main_buttons():
             url=f"https://t.me/{BOT_USERNAME}?startgroup=s&delete_message+manage_video_chats_message+invite_users")
           )
     kb.row(    
-         InlineKeyboardButton("DEV", url="https://t.me/HANTHAR_1999"),
-         InlineKeyboardButton(" စကားပြော ", url="https://t.me/myanmar_music_Bot2027")
+         InlineKeyboardButton("OWNER", url="https://t.me/OfficialSheePhaw"),
+         InlineKeyboardButton(" GROUP ", url="https://t.me/+9jOjYLZ7Hgo2OTM1")
           )
     kb.row(  
-        InlineKeyboardButton("Botပြုလုပ်လိုပါက", url="tg://resolve?domain=HEX_KING9&text=Botအသစ်လုပ်ချင်လို့ပါ"),
-        InlineKeyboardButton("UPDATE", url="https://t.me/myanmarbot_music")
+        InlineKeyboardButton("Botပြုလုပ်လိုပါက", url="tg://resolveOfficialSheePhaw?domain=&text=Botအသစ်လုပ်ချင်လို့ပါ"),
+        InlineKeyboardButton("UPDATE", url="https://t.me/SheePhawChannel")
           )
     return kb
 # ======================
@@ -976,7 +976,7 @@ def handle_all(message):
             join_kb = InlineKeyboardMarkup()
             clean_channel = FORCE_JOIN_CHANNEL.replace('@', '')
             join_kb.add(InlineKeyboardButton(" Channel join", url=f"https://t.me/{clean_channel}"))
-            join_kb.add(InlineKeyboardButton(" Join (စစ်ဆေးမည်)", url=f"https://t.me/MYANMAR_FRIEND_BOT?start=start"))
+            join_kb.add(InlineKeyboardButton(" Join (စစ်ဆေးမည်)", url=f"https://t.me/{BOT_USERNAME}?start=start"))
             return bot.send_message(
                 message.chat.id,
                 "<tg-emoji emoji-id='6257780484281997093'>❌</tg-emoji> <b>အသုံးပြုခွင့်မရှိသေးပါ!</b>\n\nဒီ Bot ကို သုံးဖို့အတွက် Group ကို အရင် Join ပေးရပါမယ်။",
