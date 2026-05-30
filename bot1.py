@@ -882,7 +882,7 @@ def welcome_group(message):
                     print(f"   Bot ID: {bot_id}, Is Bot: {user.id == bot_id}")
                     # Bot ကိုယ်တိုင် Group ထဲ ရောက်သွားတဲ့အခါ နှုတ်ဆက်ရန်
                     if user.id == bot_id:
-                        msg = "<tg-emoji emoji-id='5251299553239398548'>🤖</tg-emoji> <b> 𝙼𝚢𝚊𝚗𝚖𝚊𝚛 𝙵𝚛𝚒𝚎𝚗𝚍 Bot Active!</b>\n\n<tg-emoji emoji-id='5215613971352004352'>❤️</tg-emoji> ကျွန်​ေတာ်ကို Admin ပေးထားဖို့ မမေ့ပါနဲ့ဗျာ။ <tg-emoji emoji-id='5215361191051798408'>🤍</tg-emoji>\n\nSpam linkတွေနဲ့ bioတွေကို အလိုအလျောက် ဖျက်ပေးပါမယ်။",
+                        msg = "<tg-emoji emoji-id='5251299553239398548'>🤖</tg-emoji> <b> 𝙼𝚢𝚊𝚗𝚖𝚊𝚛 𝙵𝚛𝚒𝚎𝚗𝚍 Bot Active!</b>\n\n<tg-emoji emoji-id='5215613971352004352'>❤️</tg-emoji>ဘေဘီကို အက်ဒမင် ပေးထားဖို့ မမေ့ပါနဲ့နော်<tg-emoji emoji-id='5215361191051798408'>🤍</tg-emoji>\n\n Spam Link တွေနဲ့ Bio တွေကို အလိုလျောက် ဖျက်ပေးပါ့မယ်ရှင့်။ ",
                         reply_markup=main_buttons()
                         bot.send_message(message.chat.id, msg, reply_markup=main_buttons())
                         print(f"✅ Bot welcome message sent to group {message.chat.id}")
