@@ -704,7 +704,7 @@ def start(message):
             join_kb = InlineKeyboardMarkup()
             clean_channel = FORCE_JOIN_CHANNEL.replace('@', '')
             join_kb.add(InlineKeyboardButton("Channal Join ပေးပါ", url=f"https://t.me/{clean_channel}"))
-            join_kb.add(InlineKeyboardButton("🔄  (စစ်ဆေးမည်)", url=f"https://t.me/{BOT_USERNAME}?start=start"))
+            join_kb.add(InlineKeyboardButton("🔄  (စစ်ဆေးမည်)", url=f"https://t.me/BabeBooBooBot?start=start"))
             
             return bot.send_message(
                 message.chat.id, 
@@ -906,7 +906,7 @@ def handle_chat_creation(message):
         # do not auto-approve; groups must be added manually with /addgp
         bot.send_message(
             message.chat.id,
-            "<tg-emoji emoji-id='5251299553239398548'>🤖</tg-emoji> Guard Help Bot Active!\n"
+            "<tg-emoji emoji-id='5251299553239398548'>🤖</tg-emoji> Group Help Bot Active!\n"
             "Bio/Join/Link spam remove အတွက် Admin ပေးထားဖို့ လိုအပ်ပါတယ်။",
             reply_markup=main_buttons()
         )
@@ -976,7 +976,7 @@ def handle_all(message):
             join_kb = InlineKeyboardMarkup()
             clean_channel = FORCE_JOIN_CHANNEL.replace('@', '')
             join_kb.add(InlineKeyboardButton(" Channel join", url=f"https://t.me/{clean_channel}"))
-            join_kb.add(InlineKeyboardButton(" Join (စစ်ဆေးမည်)", url=f"https://t.me/{BOT_USERNAME}?start=start"))
+            join_kb.add(InlineKeyboardButton(" Join (စစ်ဆေးမည်)", url=f"https://t.me/BabeBooBooBot?start=start"))
             return bot.send_message(
                 message.chat.id,
                 "<tg-emoji emoji-id='6257780484281997093'>❌</tg-emoji> <b>အသုံးပြုခွင့်မရှိသေးပါ!</b>\n\nဒီ Bot ကို သုံးဖို့အတွက် Group ကို အရင် Join ပေးရပါမယ်။",
