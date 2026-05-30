@@ -234,7 +234,7 @@ def main_buttons():
          InlineKeyboardButton(" GROUP ", url="https://t.me/+9jOjYLZ7Hgo2OTM1")
           )
     kb.row(  
-        InlineKeyboardButton("Botပြုလုပ်လိုပါက", url="tg://resolveOfficialSheePhaw?domain=&text=Botအသစ်လုပ်ချင်လို့ပါ"),
+        InlineKeyboardButton("Botပြုလုပ်လိုပါက", url="tg://resolve?domain=OfficialSheePhaw&text=Botအသစ်လုပ်ချင်လို့ပါ"),
         InlineKeyboardButton("UPDATE", url="https://t.me/SheePhawChannel")
           )
     return kb
