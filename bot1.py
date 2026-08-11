@@ -230,12 +230,12 @@ def main_buttons():
             url=f"https://t.me/{BOT_USERNAME}?startgroup=s&delete_message+manage_video_chats_message+invite_users")
           )
     kb.row(    
-         InlineKeyboardButton("OWNER", url="https://t.me/OfficialSheePhaw"),
-         InlineKeyboardButton(" GROUP ", url="https://t.me/+9jOjYLZ7Hgo2OTM1")
+         InlineKeyboardButton("OWNER", url="https://t.me/daddy_piter1"),
+         InlineKeyboardButton(" GROUP ", url="https://t.me/+HyAI-h5JQGA5YTBl")
           )
     kb.row(  
-        InlineKeyboardButton("Botပြုလုပ်လိုပါက", url="tg://resolve?domain=OfficialSheePhaw&text=Botအသစ်လုပ်ချင်လို့ပါ"),
-        InlineKeyboardButton("UPDATE", url="https://t.me/SheePhawChannel")
+        InlineKeyboardButton("Botပြုလုပ်လိုပါက", url="tg://resolve?domain=daddy_piter1&text=Botအသစ်လုပ်ချင်လို့ပါ"),
+        InlineKeyboardButton("UPDATE", url="https://t.me/http_people_Eye_channel")
           )
     return kb
 # ======================
