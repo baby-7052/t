@@ -704,7 +704,7 @@ def start(message):
             join_kb = InlineKeyboardMarkup()
             clean_channel = FORCE_JOIN_CHANNEL.replace('@', '')
             join_kb.add(InlineKeyboardButton("Channal Join ပေးပါ", url=f"https://t.me/{clean_channel}"))
-            join_kb.add(InlineKeyboardButton("🔄  (စစ်ဆေးမည်)", url=f"https://t.me/BabeBooBooBot?start=start"))
+            join_kb.add(InlineKeyboardButton("🔄  (စစ်ဆေးမည်)", url=f"?start=start"))
             
             return bot.send_message(
                 message.chat.id, 
@@ -976,7 +976,7 @@ def handle_all(message):
             join_kb = InlineKeyboardMarkup()
             clean_channel = FORCE_JOIN_CHANNEL.replace('@', '')
             join_kb.add(InlineKeyboardButton(" Channel join", url=f"https://t.me/{clean_channel}"))
-            join_kb.add(InlineKeyboardButton(" Join (စစ်ဆေးမည်)", url=f"https://t.me/BabeBooBooBot?start=start"))
+            join_kb.add(InlineKeyboardButton(" Join (စစ်ဆေးမည်)", url=f"https://t.me/{BOT_USERNAME}?start=start"))
             return bot.send_message(
                 message.chat.id,
                 "<tg-emoji emoji-id='6257780484281997093'>❌</tg-emoji> <b>အသုံးပြုခွင့်မရှိသေးပါ!</b>\n\nဒီ Bot ကို သုံးဖို့အတွက် Group ကို အရင် Join ပေးရပါမယ်။",
